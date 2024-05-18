@@ -1,5 +1,5 @@
 export function changeColor(percentage){
-    // Takes in a percentage intege
+    // Takes in a percentage integer
     if(percentage < 10){
         return '#FFCBD1'
     }else if(percentage >=10 && percentage < 20){
