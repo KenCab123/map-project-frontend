@@ -25,17 +25,10 @@
 }
 
 
-.Staten-Island{
-    /* background-color: black; */
-}
-
 .Staten-Island div{
-    margin: -30px 0px 0px -20px;
+    margin: -40px 0px 0px -20px;
 }
 
-.Manhattan{
-    font-size: 18px;
-}
 .Manhattan div{
     /* Use similar styling to move around other divs.  */
     /* border: 1px solid black; */
@@ -43,24 +36,16 @@
     transform: rotate(300deg);
 }
 
-.Bronx{
 
-}
 
 .Bronx div{
     margin: -10px 0px 0px -35px;
 }
 
-.Queens{
-
-}
 .Queens div{
     margin: -60px 0px 0px -30px;
 }
 
-.Brooklyn{
-
-}
 
 .Brooklyn div{
     margin: -10px 0px 0px -40px;
@@ -74,9 +59,40 @@
 }
 
 .modal{
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 10px;
     position: absolute;
     border: 1px solid black;
     width: fit-content;
-    top: 30%;
-    margin-left: 30px;
+}
+
+.Manhattan-modal{
+    background: red;
+    top: 15%;
+    left: 30%;
+}
+
+.SI-modal{
+    background: violet;
+    left: 20%;
+    bottom: 40%;
+}
+
+.Bronx-modal{
+    background: aqua;
+    top: 5%;
+    right: 20%;
+}
+
+.Queens-modal{
+    background: greenyellow;
+    top:30%;
+    right: 15%;
+}
+
+.Brooklyn-modal{
+    background: orange;
+    bottom: 40%;
+    right: 20%;
 }

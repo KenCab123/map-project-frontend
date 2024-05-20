@@ -196,14 +196,14 @@ const { BoroName } = feature.properties;
     }, []);
     
     return (
-        <>
+        <div>
         <div className="map-container">
             <div id="map"></div>
         </div>
         {bronxModal && (
-            <div className="modal" onClick={() => setBronxModal(false)} style={{"background" : "blue"}}>
+            <div className="Bronx-modal modal" onClick={() => setBronxModal(false)} >
                     <div className="modal-content" >
-                        <p>Bronx</p>
+                        <h3>Bronx</h3>
                         <p>Total Shootings: {grabBronxData().boroShootings}</p>
                         <p>Fatal Deaths: {grabBronxData().fatalDeaths}</p>
                         <p>Most Common Location: {grabBronxData().commonLocation[0] + grabBronxData().commonLocation.slice(1).toLowerCase()}</p>
@@ -212,9 +212,9 @@ const { BoroName } = feature.properties;
                 </div>
             )}
         {manhattanModal && (
-            <div className="modal" onClick={() => setManhattanModal(false)} style={{"background" : "red"}}>
+            <div className="Manhattan-modal modal" onClick={() => setManhattanModal(false)} >
                     <div className="modal-content" >
-                        <p>Manhattan</p>
+                        <h3>Manhattan</h3>
                         <p>Total Shootings: {grabManhattanData().boroShootings}</p>
                         <p>Fatal Deaths: {grabManhattanData().fatalDeaths}</p>
                         <p>Most Common Location: {grabManhattanData().commonLocation[0] + grabManhattanData().commonLocation.slice(1).toLowerCase()}</p>
@@ -223,9 +223,9 @@ const { BoroName } = feature.properties;
                 </div>
             )}
         {brooklynModal && (
-            <div className="modal" onClick={() => setBrooklynModal(false)} style={{"background" : "yellow"}}>
+            <div className="Brooklyn-modal modal" onClick={() => setBrooklynModal(false)} >
                     <div className="modal-content" >
-                        <p>Brooklyn</p>
+                        <h3>Brooklyn</h3>
                         <p>Total Shootings: {grabBrooklynData().boroShootings}</p>
                         <p>Fatal Deaths: {grabBrooklynData().fatalDeaths}</p>
                         <p>Most Common Location: {grabBrooklynData().commonLocation[0] + grabBrooklynData().commonLocation.slice(1).toLowerCase()}</p>
@@ -234,9 +234,9 @@ const { BoroName } = feature.properties;
                 </div>
             )}
         {queensModal && (
-            <div className="modal" onClick={() => setQueensModal(false)} style={{"background" : "green"}}>
+            <div className="Queens-modal modal" onClick={() => setQueensModal(false)} >
                     <div className="modal-content" >
-                        <p>Queens</p>
+                        <h3>Queens</h3>
                         <p>Total Shootings: {grabQueensData().boroShootings}</p>
                         <p>Fatal Deaths: {grabQueensData().fatalDeaths}</p>
                         <p>Most Common Location: {grabQueensData().commonLocation[0] + grabQueensData().commonLocation.slice(1).toLowerCase()}</p>
@@ -245,9 +245,9 @@ const { BoroName } = feature.properties;
                 </div>
             )}
         {statenIslandModal && (
-            <div className="modal" onClick={() => setBrooklynModal(false)} style={{"background" : "purple"}}>
+            <div className="SI-modal modal" onClick={() => setBrooklynModal(false)} >
                     <div className="modal-content" >
-                        <p>Staten Island</p>
+                        <h3>Staten Island</h3>
                         <p>Total Shootings: {grabStatenIslandData().boroShootings}</p>
                         <p>Fatal Deaths: {grabStatenIslandData().fatalDeaths}</p>
                         <p>Most Common Location: {grabStatenIslandData().commonLocation[0] + grabStatenIslandData().commonLocation.slice(1).toLowerCase()}</p>
@@ -267,7 +267,7 @@ const { BoroName } = feature.properties;
         </ul>
         }
       </div>
-        </>
+    </div>
     );
 };
 
