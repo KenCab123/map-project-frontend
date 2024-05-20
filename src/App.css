@@ -8,3 +8,16 @@
     font-weight: lighter;
     /* color: ; */
 }
+
+.app-name-link{
+    color: black;
+}
+
+.about-link{
+    color: black;
+}
+.about-link-head{
+    position: absolute;
+    margin-top: 20px;
+    right: 5%;
+}

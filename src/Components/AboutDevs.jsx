@@ -1,3 +1,6 @@
+import React from "react";
+import "../Styles/About.css"
+
 const AboutDevs = () => {
     return (
       <div className="about-container">
@@ -40,12 +43,12 @@ const AboutDevs = () => {
           </p>
           <h2>Timothy</h2>
           <a
-            href="https://res.cloudinary.com/dgifdj6nx/image/upload/v1716221799/IMG_8993_kkwi5i.jpg"
+            href="https://github.com/TimNatal1887/"
             className="github-link"
             target="_blank"
           >
             <img
-              src="https://github.com/TimNatal1887/"
+              src="https://res.cloudinary.com/dgifdj6nx/image/upload/v1716221799/IMG_8993_kkwi5i.jpg"
               alt="Tim!"
               width="300"
               height="300"
