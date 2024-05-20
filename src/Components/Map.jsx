@@ -261,9 +261,9 @@ const { BoroName } = feature.properties;
         
         <ul className="gen-data-info">
             <p className="summary-p">
-                The City of Dreams, New York City is hotspot for visitors from all across the world. 
+                The City of Dreams, New York City is a hotspot for visitors from all across the world. 
                 With many visitors unfamiliar to the culture and goings on, it's important
-                for many to consider the safety of their destination, and a city with a population of 8 million,
+                for many to consider the safety of their destination, and a city with a population of 8 million
                 is no exception to the concerns of human safety.
                 <br></br> 
                 <br></br>
