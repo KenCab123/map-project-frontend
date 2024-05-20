@@ -196,7 +196,7 @@ const { BoroName } = feature.properties;
     }, []);
     
     return (
-        <div>
+        <div className="map-page-wrap">
         <div className="map-container">
             <div id="map"></div>
         </div>
@@ -258,7 +258,19 @@ const { BoroName } = feature.properties;
         <div className="gen-data">
         <h1>General Data</h1>
         {allShootings.length > 0 &&
-        <ul>
+        
+        <ul className="gen-data-info">
+            <p className="summary-p">
+                The City of Dreams, New York City is hotspot for visitors from all across the world. 
+                With many visitors unfamiliar to the culture and goings on, it's important
+                for many to consider the safety of their destination, and a city with a population of 8 million,
+                is no exception to the concerns of human safety.
+                <br></br> 
+                <br></br>
+                The goal of BulletProof NYC is to inform its users on the data concerning shooting incidents in the city,
+                to contextualize this information so users can be aware of the varying statistics and safety
+                of the city's 5 boroughs.
+                </p>
           <li># of shootings resulting in fatal deaths: {allShootings.filter(s => s.statistical_murder_flag === "Y").length}</li>
           <li>Total # of shootings: {allShootings.length}</li>
           <li>Most shootings are {findMostCommonLocation(allShootings).toLowerCase()}</li>
