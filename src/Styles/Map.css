@@ -9,13 +9,20 @@
 }
 
 .leaflet-label {
+    font-family: Arial, Helvetica, sans-serif;
     padding: 5px;
     border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 
 .Staten-Island{
     /* background-color: black; */
+}
+
+.Staten-Island div{
+    margin: -30px 0px 0px -20px;
 }
 
 .Manhattan{
@@ -32,10 +39,21 @@
 
 }
 
+.Bronx div{
+    margin: -10px 0px 0px -35px;
+}
+
 .Queens{
 
+}
+.Queens div{
+    margin: -60px 0px 0px -30px;
 }
 
 .Brooklyn{
 
+}
+
+.Brooklyn div{
+    margin: -10px 0px 0px -40px;
 }
