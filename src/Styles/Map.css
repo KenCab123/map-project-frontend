@@ -7,3 +7,35 @@
     height: 500px;
     width: 100%;
 }
+
+.leaflet-label {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.Staten-Island{
+    /* background-color: black; */
+}
+
+.Manhattan{
+    font-size: 18px;
+}
+.Manhattan div{
+    /* Use similar styling to move around other divs.  */
+    /* border: 1px solid black; */
+    margin:-20px 0px 0px -60px;
+    transform: rotate(300deg);
+}
+
+.Bronx{
+
+}
+
+.Queens{
+
+}
+
+.Brooklyn{
+
+}

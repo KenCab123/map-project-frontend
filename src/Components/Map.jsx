@@ -76,12 +76,25 @@ const App = () => {
                 layer.bringToFront();
             }
 
-            function resetHighlight(e) {
-                const layer = e.target;
-                geojson.resetStyle(layer);
-            }
+        function resetHighlight(e) {
+            const layer = e.target;
+            geojson.resetStyle(layer);
+        }
 
-            function onEachFeature(feature, layer) {
+        function onEachFeature(feature, layer) {
+
+
+            const { BoroName } = feature.properties;
+            const formattedClassName = BoroName.split(' ').join('-')
+            // Insert a new icon for each 'feature' (borough). This will add an html div element containing the boroughs name
+            const label = L.marker(layer.getBounds().getCenter(), {
+                icon: L.divIcon({
+                    className: `leaflet-label ${formattedClassName}`,
+                    html: `<div>${BoroName}</div>`
+                })
+            }).addTo(map);
+        
+
                 layer.on({
                     mouseover: highlightFeature,
                     mouseout: resetHighlight,
@@ -100,7 +113,7 @@ const App = () => {
                     }
                 });
             }
-            }
+        }
 
             
             function style(feature) {
@@ -140,7 +153,8 @@ const App = () => {
     return (
         <>
         <div className="map-container">
-            <div id="map"></div>
+            <div id="map">
+            </div>
         </div>
         {toggleModal && (
             <div className="modal" onClick={() => setToggleModal(false)}>
