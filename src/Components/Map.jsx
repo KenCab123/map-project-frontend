@@ -153,8 +153,7 @@ const App = () => {
     return (
         <>
         <div className="map-container">
-            <div id="map">
-            </div>
+            <div id="map"></div>
         </div>
         {toggleModal && (
             <div className="modal" onClick={() => setToggleModal(false)}>
