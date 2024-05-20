@@ -1,31 +1,82 @@
-# Basic React Starter
+# OPEN DATA HACKATHON
 
-You can use this starter to create any ReactJS app you would like.
-Unlike when you use `npm create vite@latest your-app-name -- --template react`,
+**BulletProof NYC** by GROUP 2 🧑🏾‍💻 
 
-This repo has removed all of the unwanted starter code that is normally included when using `npm` to create an application.
+<img src="https://res.cloudinary.com/dgifdj6nx/image/upload/t_Gradient fade/v1716217912/MKT-Logo_yzmwzk.jpg" alt="BulletProof NYC!" width="800" height="400">
 
-## Getting started
+Using the NYPD Shooting Incidents Data API as part of the NYC Open API database, we -- Tim Natal, Ken Cabral and Marlon Regis, tackled this project over only a couple of days to create an app, `BulletProof NYC` to solve the problem of NYC gun violence, and solving it through safety awareness around the data provided by the NYPD of shooting incidents in its 5 boroughs of the Bronx, Brooklyn, Manhattan, Queens and Staten Island.
 
-- `clone` this application
-- change the name of this directory to a name that refers to your current project. Don't just leave it as `react-basic-starter`
-  _Hint:_ In the terminal, type `mv react-basic-starter new-name-of-your-app`
-- `cd` into the app
-- in the terminal run `git remote remove origin` in order to remove any connection to this Github folder.
+## The Data  
 
-- run `npm install`
-- to start the project, run `npm run dev`
-- no navigate to `localhost:3000` and you will see the app
-- Now you are ready to code
+-5 Different NYC Boroughs
+-Death by Shooting (classified as "murder")
+-Date & Time
+-Direct Location: (indoors or outdoors?)
+-Perpetrator (age, sex, race)
+-Victim (age, sex, race)
 
-If you would like to connect this afterwards to your personal Github then:
+### Features
+-The `BulletProof NYC` app is a simple one, providing statistics on the above data, by borough, broken-down. A user can hover and click over each borough to get 'the skinny' as it relates to shootings, to date.
 
-- go to your Github account in the browser
-- create a new repo and give it a name
-- make sure the repo is public and click `Create Repository`
-- copy the instructions under the title `…or push an existing repository from the command line`
-- paste the commands in your terminal
+## USER STORIES
 
-You have now connected your project to the repo.
+1. The app should be free to download, informative and be available on any mobile device.
 
-**You have the ability to clone this repo over and over to create your own projects. Just remember to change the name of the folder so that you do not have duplicates**
+2. As a user, the search button must directly lead me to platforms that correlate to my filtered request.
+
+3. As a user, signing up to log-in, must be clearly advantageous than anyone who doesn't.
+
+4. As a repeat user, at least two platforms that help me discovery new music, should be included.
+
+5. As an avid user, the app needs to point me in the right direction for platforms that build community.
+
+
+## User Persona:
+
+<img src="https://res.cloudinary.com/dgifdj6nx/image/upload/v1716220733/MKT-UberDriver_tcdclw.gif" alt="King David" width="300" height="300">
+
+-King David is an Uber Driver in NYC, who lives in Queens.
+-He drives throughout the 5 boroughs of NYC, on a daily basis.
+-Similar to tourists & dependent on navigation, our app creates awareness, which in turn provides a precaution for your safety. 
+-He uses our app from time-to-time, to get updates on current trends in gun violence according to each of the 5 boroughs.
+-Mostly active during the night, guess where he limits his rides?
+-According to the data provided in our app, he turns off his Uber app after a drop-off destination, once he's taken to the Bronx. 
+-& his BulletProof NYC app icon sits right next to his Uber app.
+
+
+
+## ABOUT Devs!
+
+<p align="center">
+  <b>Marlon Regis:</b> <a href="https://github.com/MarlonPelau">GitHub</a>
+</p>
+<p align="center">
+  <img src="https://res.cloudinary.com/dgifdj6nx/image/upload/t_Profile/v1712883521/pelau_yfhd9e.png" alt="Marlon!" width="300" height="300">
+
+<p align="center">
+  <b>Kenneth Cabral:</b> <a href="https://github.com/KenCab123/">GitHub</a>
+</p>
+<p align="center">
+  <img src="https://res.cloudinary.com/dgifdj6nx/image/upload/v1716214563/Screenshot_2024-04-01_at_3.22.13_PM_cghw1j.png" alt="Ken!" width="300" height="300">
+
+<p align="center">
+  <b>Timothy Natal:</b> <a href="https://github.com/TimNatal1887/">GitHub</a>
+</p>
+<p align="center">
+  <img src="https://res.cloudinary.com/dgifdj6nx/image/upload/v1716221799/IMG_8993_kkwi5i.jpg" alt="Tim!" width="300" height="300">
+
+
+
+### Visual Examples
+The following is an example of my app being built at a beginning stage, while tackling this `BulletProof NYC` hackathon.
+
+<img src="https://res.cloudinary.com/dgifdj6nx/image/upload/v1716220992/Screenshot_2024-05-19_at_10.25.02_AM_bgupho.png" alt="workflow" width="400" height="400">
+
+
+# OUR (& SLIDE) LINKS:
+
+### Frontend Deployment: https://github.com/KenCab123/map-project-frontend
+
+**SLIDE**: <button><a href="https://tome.app/heaven-7even/mkt-clwavvzo002a7o365dp2vm8iu">PLAY!</a></button>
+
+

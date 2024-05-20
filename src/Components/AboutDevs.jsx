@@ -40,7 +40,7 @@ const AboutDevs = () => {
           </p>
           <h2>Timothy</h2>
           <a
-            href="?"
+            href="https://res.cloudinary.com/dgifdj6nx/image/upload/v1716221799/IMG_8993_kkwi5i.jpg"
             className="github-link"
             target="_blank"
           >
