@@ -22,13 +22,13 @@ Using the NYPD Shooting Incidents Data API as part of the NYC Open API database,
 
 1. The app should be free to download, informative and be available on any mobile device.
 
-2. As a user, the search button must directly lead me to platforms that correlate to my filtered request.
+2. As a user, we also want an exact location of shooting incidents within each borough.
 
-3. As a user, signing up to log-in, must be clearly advantageous than anyone who doesn't.
+3. As a user, reporting a gun sighting, incident or murder should be possible on the app, directly to the NYPD.
 
-4. As a repeat user, at least two platforms that help me discovery new music, should be included.
+4. As a repeat user, hopefully updates are showing new data and trends of gun violence by the borough.
 
-5. As an avid user, the app needs to point me in the right direction for platforms that build community.
+5. As an avid user, the app needs to point me in the right direction for news feeds about gun violence, tracks up-to-the-hour NYPD posts on social media platforms on gun violence, as well as research sources on shootings in NYC.
 
 
 ## User Persona:
